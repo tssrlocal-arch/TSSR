@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>TSSR - Bibliothèque</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: #0b0e14; color: white; font-family: sans-serif; text-align: center;">
+
+    <div id="page-login">
+        <h1 style="color: cyan;">Accès Sécurisé</h1>
+        <input type="text" id="username" placeholder="Username">
+        <input type="password" id="password" placeholder="******">
+        <button onclick="verifierAcces()">SE CONNECTER</button>
+        <p id="message-erreur" class="hidden" style="color: red;">Identifiants invalides</p>
+    </div>
+
+    <div id="page-site" class="hidden">
+        <nav style="background: #1a1a1a; padding: 15px; border-bottom: 2px solid cyan;">
+            <a href="#" style="color: cyan;">Accueil</a> | 
+            <a href="#" style="color: cyan;">Mes Cours</a>
+        </nav>
+        <h1 style="color: cyan;">Bienvenue dans la Bibliothèque Technique</h1>
+        <img src="kali-linux.jpg" alt="Kali Linux" style="width: 60%; margin-top: 20px;">
+        <p>Tu es maintenant connecté avec succès !</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

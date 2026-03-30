@@ -1,0 +1,7 @@
+.hidden {
+    display: none !important;
+}
+
+/* Style pour les inputs et boutons */
+input { padding: 10px; margin: 5px; border-radius: 5px; border: none; }
+button { padding: 10px 20px; background: cyan; border: none; cursor: pointer; font-weight: bold; }
